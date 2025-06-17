@@ -1,0 +1,21 @@
+[project]
+name = "laicrypto-gui"
+version = "0.1.0"
+description = "A PyQt5 GUI frontend for LAICrypto encryption"
+authors = [{ name = "GALIH RIDHO UTOMO", email = "4211421036@students.unnes.ac.id" }]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "PyQt5>=5.15",
+    "laicrypto>=0.1.0"
+]
+
+[project.urls]
+Homepage = "https://4211421036.github.io/pqcrypto/"
+Repository = "https://github.com/4211421036/SimulationCrypto/"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
